@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자</title>
+    <style>
+        #header{background-color: yellow; width: 300px;}
+        #section{background-color: pink; width: 300px;}
+        #footer{background-color: green; width: 300px;}
+        .point{color: blue;}
+        h1{color: red;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>헤더영역</h1>
+        <div id="nav">
+            <h1>메인메뉴</h1>
+            <ul>
+                <li>메뉴-1</li>
+                <li class="point">메뉴-2</li>
+                <li>메뉴-3</li>
+            </ul>
+        </div>
+    </div> <!--#header end-->
+    <div id="section">
+        <div class="article">
+            <h1 class="point">소메뉴01</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="article">
+            <h1>소메뉴02</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
