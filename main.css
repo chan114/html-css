@@ -21,6 +21,20 @@ main h2{font-size: 3rem;}
 main p{font-size: 1.3rem; width: 50%; margin: 0 auto;}
 main button{background-color: transparent; color: white; padding: 1rem 2rem; border: 3px solid white; border-radius: 20px; cursor: pointer;}
 
-/*내소개 영역*/
-section{height: 2000px; padding: 1.9rem;}
-section .container{border: 5px solid red;}
+
+/* 내 소개 영역 */
+section{height: 2000px;padding: 1.9rem 0;}
+section.container{border: 5px solid red;}
+section.container.about-me{border: 5px solid yellow;display: flex;}
+section.container.about-me.left {border: 5px solid purple;width: 50%;}
+section.container.about-me.left img {width: 100%;}
+section.container.about-me.right {border: 5px solid green; width: 50%;}
+section.container.about-me.right h3 {font-size: 2rem; padding-bottom: 1rem;}
+section.container.about-me.right.p{margin: 1rem 0;}
+section.container.about-me.right.h3{}
+section.container.about-me.icon.a
+
+/*title 영역*/
+section .container .title h4{color: #ed4848; font-size: 1.5rem;}
+section .container .title h2{font-size: 3rem;}
+section .container .title{border: 5px solid blue;}
