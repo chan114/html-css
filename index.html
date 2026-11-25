@@ -1,62 +1,150 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>final-정성찬</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!--헤더영역-->
-    <!--header>.container>h1+nav>ul>li*4>a-->
+
+    <!-- 헤더영역 -->
     <header>
         <div class="container">
             <h1><a href="">Chan</a></h1>
             <nav>
                 <ul>
                     <li><a href="#About">About</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Feature</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Feature">Feature</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <!--메인영역-->
+
+    <!-- 메인영역 -->
     <main>
-        <div class="coatainer">
+        <div class="container">
             <h2>I AM A Front-End Developer!</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sequi consectetur consequuntur.</p>
             <button>DOWNLOAD CV</button>
         </div>
     </main>
-    <!--내소개 영역-->
+
+    <!-- 내소개 영역 -->
     <section id="About">
         <div class="container">
+
             <div class="title">
                 <h4>Who Am I</h4>
                 <h2>About Me</h2>
             </div>
+
             <div class="about-me">
+
+                <!-- 왼쪽 사진 -->
                 <div class="left">
                     <img src="img/me.jpg" alt="내사진">
-                </div> <!--left 짝-->
+                </div>
+
+                <!-- 오른쪽 자기소개 -->
                 <div class="right">
                     <h3>Hello, I'm SUNGCHAN</h3>
+
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, asperiores.</p>
+
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quos atque necessitatibus?</p>
+
                     <div class="icon">
                         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-kakao-talk"></i></a>
+                        <a href="#"><i class="fa-solid fa-comment"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     </div>
-                </div> <!--right 짝-->
-            </div> <!--title 짝-->
-        </div><!--container 짝-->
+
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- 포트폴리오 영역 -->
+    <section id="Portfolio">
+        <div class="container">
+            <div class="title">
+                <h4>Portfolio</h4>
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="port-box">
+                <div class="port-inner">
+                    <div><img src="IMG/PORT01.jpg" alt="포토폴리오 사진"></div>
+                    <p>BRANDING</p>
+                    <h3>WEB DESIGNER</h3>
+                </div> <!--1번 박스-->
+                <div class="port-inner">
+                    <div><img src="IMG/PORT02.jpg" alt="포토폴리오 사진"></div>
+                    <p>BRANDING</p>
+                    <h3>WEB DESIGNER</h3>
+                </div> <!--2번 박스-->
+                <div class="port-inner">
+                    <div><img src="IMG/PORT03.jpg" alt="포토폴리오 사진"></div>
+                    <p>BRANDING</p>
+                    <h3>WEB DESIGNER</h3>
+                </div> <!--3번 박스-->
+            </div> <!--PORT BOX END-->
+             <div class="port-box">
+                <div class="port-inner">
+                    <div><img src="IMG/PORT04.jpg" alt="포토폴리오 사진"></div>
+                    <p>BRANDING</p>
+                    <h3>WEB DESIGNER</h3>
+                </div> <!--4번 박스-->
+                <div class="port-inner">
+                    <div><img src="IMG/PORT05.jpg" alt="포토폴리오 사진"></div>
+                    <p>BRANDING</p>
+                    <h3>WEB DESIGNER</h3>
+                </div> <!--5번 박스-->
+                <div class="port-inner">
+                    <div><img src="IMG/PORT06.jpg" alt="포토폴리오 사진"></div>
+                    <p>BRANDING</p>
+                    <h3>WEB DESIGNER</h3>
+                </div> <!--6번 박스-->
+            </div> <!--PORT BOX2 END-->
+        </div>
+    </section><!--portfolio-->
+    
+    <section id="Feature">
+        <div class="container">
+            <div class="title">
+                <h4>Feature</h4>
+                <h2>What I Do</h2>
+            </div>
+            <div class="do-me">
+                <div class="do-inner">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>html5</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, labore.</p>
+                </div>
+                <div class="do-inner">
+                    <i class="fa-brands fa-css"></i>
+                    <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, qui?</p>
+                </div>
+                <div class="do-inner">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, vero?</p>
+                </div>
+                </div>
+            </div>
+        </div> <!--container end-->
+    </section> <!--features-->
 </body>
 </html>
